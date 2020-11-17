@@ -1,6 +1,8 @@
 package ex1;
 
 
+import java.util.HashMap;
+
 public interface node_info {
     /**
      * Return the key (id) associated with this node.
@@ -31,4 +33,8 @@ public interface node_info {
      * @param t - the new value of the tag
      */
     public void setTag(double t);
+
+
+    //public HashMap<Integer,node_info> getN();
+    //public HashMap<Integer,Double> getw();
 }
